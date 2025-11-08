@@ -1,5 +1,5 @@
-# AI for T-Cell Antigen Identification: A Comprehensive Survey
-AI-Driven Computational Methods and Data Resources for T-Cell Antigen Identification
+# AI for T-Cell Antigen Identification: Data Resources, Computational Methods, and  Benchmarking
+AI-Driven Computational Methods, Data Resources, and Benchmarking for T-Cell Antigen Identification
 
 ![awesome](https://img.shields.io/badge/awesome-Survey-green) ![License](https://img.shields.io/badge/License-MIT-blue)
 
@@ -49,65 +49,86 @@ AI-Driven Computational Methods and Data Resources for T-Cell Antigen Identifica
 
 | Model | Published in | Datasets used |  N.G. | E.M. | Metrics |  Resources |
 |-------|--------------|-----------|-------|--------------|-----------|-----------|
-| [NetMHCpan-4.1](https://link.springer.com/article/10.1007/S002510050595) | Nucl. Acids Res., 2020 | IEDB |RS | BL |AUROC, PPVn | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [Anthem](https://link.springer.com/article/10.1007/S002510050595) | Brief. Bioinform., 2021 | IEDB,EPIMHC,MHCBN,SYFPEITHI |RS | BL |AUROC,Sensitivity,Specificity,Accuracy,MCC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [TransPHLA](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2022 | IEDB,EPIMHC,MHCBN,SYFPEITHI |RS | OR |AUROC,MCC,F1-Score,Accuracy| [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [STMHCpan](https://link.springer.com/article/10.1007/S002510050595) | Brief. Bioinform., 2023 | IEDB |RS | OR |AUROC,Recall,Precision,F1-Score,Accuracy | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [MixMHCpred2.2](https://link.springer.com/article/10.1007/S002510050595) | Cell Systems, 2023 | Self-curated datasets from multiple public sources |RS | BL |AUROC,PPV | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [BigMHC](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2023 | IEDB,NEPdb,TESLA,Neopepsee,MANAFEST |RS | OH |AUROC,AUPRC,PPVn | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [ImmuneApp](https://link.springer.com/article/10.1007/S002510050595) | Nat. Commun., 2024 | Self-curated datasets from multiple public sources |RS | BL |AUROC,AUPRC,PPVn | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [MixMHCpred3.0](https://link.springer.com/article/10.1007/S002510050595) | Genome Med., 2025 | Self-curated datasets from multiple public sources |RS | BL |AUROC,AUPRC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [UniPMT](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2025 | IEDB,TESLA,NEPdb,Neopepsee,MANAFEST |RS | LM |AUROC,AUPRC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [UnifyImmun](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2025 | IEDB,EPIMHC,MHCBN,SYFPEITHI |RS,NC | OR |AUROC,AUPRC,Accuracy,MCC,F1-Score | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [deepAntigen](https://link.springer.com/article/10.1007/S002510050595) | Nat. Commun., 2025 | IEDB,Sarkizova et al.,Abelin et al.,TESLA,Xu et al. |RS | OH |AUROC,AUPRC,Sensitivity,Specificity,Precision,NPCC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
+| [NetMHCpan-4.1](https://academic.oup.com/nar/article/48/W1/W449/5837056) | Nucl. Acids Res., 2020 | IEDB |RS | BL |AUROC, PPVn | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
+| [Anthem](https://academic.oup.com/bib/article/22/5/bbaa415/6102669) | Brief. Bioinform., 2021 | IEDB,EPIMHC,MHCBN,SYFPEITHI |RS | BL |AUROC,Sensitivity,Specificity,Accuracy,MCC | [Resources](https://github.com/17shutao/Anthem) |
+| [TransPHLA](https://www.nature.com/articles/s42256-022-00459-7) | Nat. Mach. Intell., 2022 | IEDB,EPIMHC,MHCBN,SYFPEITHI |RS | OR |AUROC,MCC,F1-Score,Accuracy| [Resources](https://github.com/a96123155/TransPHLA-AOMP) |
+| [STMHCpan](https://academic.oup.com/bib/article/24/3/bbad164/7147024) | Brief. Bioinform., 2023 | IEDB |RS | OR |AUROC,Recall,Precision,F1-Score,Accuracy | [Resources](https://github.com/Luckysoutheast/STMHCPan) |
+| [MixMHCpred2.2](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00470-7) | Cell Systems, 2023 | Self-curated datasets from multiple public sources |RS | BL |AUROC,PPV | [Resources](https://github.com/GfellerLab/MixMHCpred/releases) |
+| [BigMHC](https://www.nature.com/articles/s42256-023-00694-6) | Nat. Mach. Intell., 2023 | IEDB,NEPdb,TESLA,Neopepsee,MANAFEST |RS | OH |AUROC,AUPRC,PPVn | [Resources](https://github.com/KarchinLab/bigmhc) |
+| [ImmuneApp](https://www.nature.com/articles/s41467-024-53296-0) | Nat. Commun., 2024 | Self-curated datasets from multiple public sources |RS | BL |AUROC,AUPRC,PPVn | [Resources](https://github.com/bsml320/ImmuneApp) |
+| [MixMHCpred3.0](https://link.springer.com/article/10.1186/s13073-025-01450-8) | Genome Med., 2025 | Self-curated datasets from multiple public sources |RS | BL |AUROC,AUPRC | [Resources](https://github.com/GfellerLab/MixMHCpred) |
+| [UniPMT](https://www.nature.com/articles/s42256-025-01002-0) | Nat. Mach. Intell., 2025 | IEDB,TESLA,NEPdb,Neopepsee,MANAFEST |RS | LM |AUROC,AUPRC | [Resources](https://github.com/ethanmock/UniPMT) |
+| [UnifyImmun](https://www.nature.com/articles/s42256-024-00973-w) | Nat. Mach. Intell., 2025 | IEDB,EPIMHC,MHCBN,SYFPEITHI |RS,NC | OR |AUROC,AUPRC,Accuracy,MCC,F1-Score | [Resources](https://github.com/hliulab/UnifyImmun) |
+| [deepAntigen](https://www.nature.com/articles/s41467-025-60461-6) | Nat. Commun., 2025 | IEDB,Sarkizova et al.,Abelin et al.,TESLA,Xu et al. |RS | OH |AUROC,AUPRC,Sensitivity,Specificity,Precision,NPCC | [Resources](https://github.com/JiangBioLab/deepAntigen) |
 
 ### Peptide-MHC II Binding Prediction
 
 | Model | Published in | Datasets used |  N.G. | E.M. | Metrics |  Resources |
 |-------|--------------|-----------|-------|--------------|-----------|-----------|
-| [DeepSeqPanII](https://link.springer.com/article/10.1007/S002510050595) | IEEE/ACM Trans. Comput. Biol. Bioinform., 2021 | IEDB |Not mentioned | OH&BL |AUROC,SRCC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [DeepMHCII](https://link.springer.com/article/10.1007/S002510050595) | Bioinformatics, 2022 | IEDB |Not mentioned | OR |AUROC,PCC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [MixMHC2pred2.0](https://link.springer.com/article/10.1007/S002510050595) | Immunity, 2023 | Self-curated datasets from multiple public sources |RS | OH&BL |AUROC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [NetMHCIIpan4.2](https://link.springer.com/article/10.1007/S002510050595) | Commun. Biol., 2023 | Self-curated datasets from multiple public sources |RS | BL |AUROC,PPVn | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [NetMHCIIpan4.3](https://link.springer.com/article/10.1007/S002510050595) | Sci. Adv., 2023 | Self-curated datasets from multiple public sources |RS | BL |AUROC,PPVn | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
-| [deepAntigen](https://link.springer.com/article/10.1007/S002510050595) | Nat. Commun., 2025 | Rappazzo et al.,Strazar et al. |RS | OH |AUROC,AUPRC,Sensitivity,Specificity,Precision,NPCC | [Resources](http://www.cbs.dtu.dk/services/NetMHCpan-4.1/) |
+| [DeepSeqPanII](https://ieeexplore.ieee.org/abstract/document/9411722) | IEEE/ACM Trans. Comput. Biol. Bioinform., 2021 | IEDB |Not mentioned | OH&BL |AUROC,SRCC | [Resources](https://github.com/pcpLiu/DeepSeqPanII) |
+| [DeepMHCII](https://academic.oup.com/bioinformatics/article/38/Supplement_1/i220/6617501) | Bioinformatics, 2022 | IEDB |Not mentioned | OR |AUROC,PCC | [Resources](https://github.com/yourh/DeepMHCII) |
+| [MixMHC2pred2.0](https://www.cell.com/immunity/fulltext/S1074-7613(23)00129-2?) | Immunity, 2023 | Self-curated datasets from multiple public sources |RS | OH&BL |AUROC | [Resources](https://github.com/GfellerLab/MixMHC2pred) |
+| [NetMHCIIpan4.2](https://www.nature.com/articles/s42003-023-04749-7) | Commun. Biol., 2023 | Self-curated datasets from multiple public sources |RS | BL |AUROC,PPVn | [Resources](https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.2/) |
+| [NetMHCIIpan4.3](https://www.science.org/doi/full/10.1126/sciadv.adj6367) | Sci. Adv., 2023 | Self-curated datasets from multiple public sources |RS | BL |AUROC,PPVn | [Resources](https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/) |
+| [deepAntigen](https://www.nature.com/articles/s41467-025-60461-6) | Nat. Commun., 2025 | Rappazzo et al.,Strazar et al. |RS | OH |AUROC,AUPRC,Sensitivity,Specificity,Precision,NPCC | [Resources](https://github.com/JiangBioLab/deepAntigen) |
 
 ### TCR-pMHC Binding Prediction
 
 | Model | Published in | Datasets used |  N.G. | E.M. | Metrics |  Resources |
 |-------|--------------|-----------|-------|--------------|-----------|-----------|
-| [ERGO-II](https://link.springer.com/article/10.1007/S002510050595) | Front. Immunol., 2021 | McPAS-TCR,VDJdb,Kanakry et al. |SH | OH |AUROC | [Resources](https://github.com/IdoSpringer/ERGO-II) |
-| [NetTCR-2.0](https://link.springer.com/article/10.1007/S002510050595) | Commun. Biol., 2021 | IEDB,VDJdb,10x,MIRA |SH  | PC |AUROC,PPVn | [Resources](https://services.healthtech.dtu.dk/services/NetTCR-2.0/) |
-| [ImRex](https://link.springer.com/article/10.1007/S002510050595) | Brief. Bioinform., 2021 | VDJdb,McPAS-TCR,Dean et al. |BK,SH | PC,BL |AUROC,AUPRC | [Resources](https://github.com/pmoris/ImRex) |
-| [DLpTCR](https://link.springer.com/article/10.1007/S002510050595) | Brief. Bioinform., 2021 | TetTCR-seq,VDJdb,IEDB |BK | OH,PC |Recall,Precision,Accuracy,AUROC | [Resources](https://github.com/jiangBiolab/DLpTCR) |
-| [pMTnet](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2021 | PIRD,McPAS-TCR,VDJdb,10x,TetTCR-seq,Chen et al.  |SH | BL |AUROC,AUPRC | [Resources](https://github.com/tianshilu/pMTnet) |
-| [DeepTCR](https://link.springer.com/article/10.1007/S002510050595) | Nat. Commun., 2021 | Dash et al.,10x,Glanville et al.,ImmunoMap,Chan et al. |Not mentioned | OH |AUROC,Recall,Precision,F1-Score | [Resources](https://github.com/sidhomj/DeepTCR) |
-| [TITAN](https://link.springer.com/article/10.1007/S002510050595) | Bioinformatics, 2021 | VDJdb,ImmuneCODE,BindingDB |SH | BL |Accuracy,AUROC | [Resources](https://github.com/PaccMann/TITAN) |
-| [PRIME2.0](https://link.springer.com/article/10.1007/S002510050595) | Cell Systems, 2023 | Self-curated datasets from multiple public sources |BK | BL |AUROC,PPV | [Resources](https://github.com/GfellerLab/PRIME) |
-| [TEINet](https://link.springer.com/article/10.1007/S002510050595) | Brief. Bioinform., 2023 | VDJdb,McPAS-TCR,Lu et al. |SH,BK | LM |AUROC,Accuracy,Precision,Recall | [Resources](https://github.com/jiangdada1221/TEINet) |
-| [PanPep](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2023 | IEDB,VDJdb,PIRD,McPAS-TCR,ImmuneCODE |BK | PC |AUROC,AUPRC | [Resources](https://github.com/bm2-lab/PanPep) |
-| [TEIM](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2023 | IEDB,VDJdb,McPAS-TCR,ImmuneCODE |SH | BL |AUROC,MCC,AUPRC | [Resources](https://github.com/pengxingang/TEIM) |
-| [PISTE](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2024 | VDJdb,McPAS-TCR,Lu et al.|SH,BK | OR |AUROC,AUPRC,PPVn | [Resources](https://github.com/jychen01/PISTE) |
-| [MixTCRpred](https://link.springer.com/article/10.1007/S002510050595) | Nat. Commun., 2024 | VDJdb,McPAS-TCR,IEDB,10x |SH,BK | OR |AUROC | [Resources](https://github.com/GfellerLab/MixTCRpred) |
-| [TPepRet](https://link.springer.com/article/10.1007/S002510050595) | Bioinformatics, 2025 | IEDB,VDJdb,McPAS-TCR |SH | PC |AUROC,AUPRC | [Resources](https://github.com/CSUBioGroup/TPepRet) |
-| [UniPMT](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2025 | IEDB,TetTCR-seq,VDJdb,McPAS-TCR,PIRD |SH | LM |AUROC,AUPRC | [Resources](https://github.com/ethanmock/UniPMT) |
-| [UnifyImmun](https://link.springer.com/article/10.1007/S002510050595) | Nat. Mach. Intell., 2025 | TetTCR-seq,VDJdb,IEDB,PIRD,Heilkkila et al.,10x,ImmuneCODE,BindingDB |SH,BK | OR |AUROC,AUPRC,Accuracy,MCC,F1-Score | [Resources](https://github.com/hliulab/UnifyImmun) |
-| [TCRBagger](https://link.springer.com/article/10.1007/S002510050595) | Cell System, 2025 | IEDB,VDJdb,McPAS-TCR,PIRD |BK | PC |AUROC,AUPRC | [Resources](https://github.com/bm2-lab/TCRBagger) |
-| [deepAntigen](https://link.springer.com/article/10.1007/S002510050595) | Nat. Commun., 2025 | IEDB,VDJdb,McPAS-TCR,PIRD,ImmuneCODE,NeoTCR  |BK | OH |AUROC,AUPRC,Sensitivity,Specificity,Precision,NPCC | [Resources](https://github.com/JiangBioLab/deepAntigen) |
+| [ERGO-II](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.664514/full) | Front. Immunol., 2021 | McPAS-TCR,VDJdb,Kanakry et al. |SH | OH |AUROC | [Resources](https://github.com/IdoSpringer/ERGO-II) |
+| [NetTCR-2.0](https://www.nature.com/articles/s42003-021-02610-3) | Commun. Biol., 2021 | IEDB,VDJdb,10x,MIRA |SH  | PC |AUROC,PPVn | [Resources](https://services.healthtech.dtu.dk/services/NetTCR-2.0/) |
+| [ImRex](https://academic.oup.com/bib/article/22/4/bbaa318/6042663) | Brief. Bioinform., 2021 | VDJdb,McPAS-TCR,Dean et al. |BK,SH | PC,BL |AUROC,AUPRC | [Resources](https://github.com/pmoris/ImRex) |
+| [DLpTCR](https://academic.oup.com/bib/article/22/6/bbab335/6355415?login=false) | Brief. Bioinform., 2021 | TetTCR-seq,VDJdb,IEDB |BK | OH,PC |Recall,Precision,Accuracy,AUROC | [Resources](https://github.com/jiangBiolab/DLpTCR) |
+| [pMTnet](https://www.nature.com/articles/s42256-021-00383-2) | Nat. Mach. Intell., 2021 | PIRD,McPAS-TCR,VDJdb,10x,TetTCR-seq,Chen et al.  |SH | BL |AUROC,AUPRC | [Resources](https://github.com/tianshilu/pMTnet) |
+| [DeepTCR](https://www.nature.com/articles/s41467-021-21879-w) | Nat. Commun., 2021 | Dash et al.,10x,Glanville et al.,ImmunoMap,Chan et al. |Not mentioned | OH |AUROC,Recall,Precision,F1-Score | [Resources](https://github.com/sidhomj/DeepTCR) |
+| [TITAN](https://academic.oup.com/bioinformatics/article/37/Supplement_1/i237/6319659) | Bioinformatics, 2021 | VDJdb,ImmuneCODE,BindingDB |SH | BL |Accuracy,AUROC | [Resources](https://github.com/PaccMann/TITAN) |
+| [PRIME2.0](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00470-7) | Cell Systems, 2023 | Self-curated datasets from multiple public sources |BK | BL |AUROC,PPV | [Resources](https://github.com/GfellerLab/PRIME) |
+| [TEINet](https://academic.oup.com/bib/article/24/2/bbad086/7076118) | Brief. Bioinform., 2023 | VDJdb,McPAS-TCR,Lu et al. |SH,BK | LM |AUROC,Accuracy,Precision,Recall | [Resources](https://github.com/jiangdada1221/TEINet) |
+| [PanPep](https://www.nature.com/articles/s42256-023-00619-3) | Nat. Mach. Intell., 2023 | IEDB,VDJdb,PIRD,McPAS-TCR,ImmuneCODE |BK | PC |AUROC,AUPRC | [Resources](https://github.com/bm2-lab/PanPep) |
+| [TEIM](https://www.nature.com/articles/s42256-023-00634-4) | Nat. Mach. Intell., 2023 | IEDB,VDJdb,McPAS-TCR,ImmuneCODE |SH | BL |AUROC,MCC,AUPRC | [Resources](https://github.com/pengxingang/TEIM) |
+| [PISTE](https://www.nature.com/articles/s42256-024-00901-y) | Nat. Mach. Intell., 2024 | VDJdb,McPAS-TCR,Lu et al.|SH,BK | OR |AUROC,AUPRC,PPVn | [Resources](https://github.com/jychen01/PISTE) |
+| [MixTCRpred](https://www.nature.com/articles/s41467-024-47461-8) | Nat. Commun., 2024 | VDJdb,McPAS-TCR,IEDB,10x |SH,BK | OR |AUROC | [Resources](https://github.com/GfellerLab/MixTCRpred) |
+| [TPepRet](https://academic.oup.com/bioinformatics/article/41/1/btaf022/7989444) | Bioinformatics, 2025 | IEDB,VDJdb,McPAS-TCR |SH | PC |AUROC,AUPRC | [Resources](https://github.com/CSUBioGroup/TPepRet) |
+| [UniPMT](https://www.nature.com/articles/s42256-025-01002-0) | Nat. Mach. Intell., 2025 | IEDB,TetTCR-seq,VDJdb,McPAS-TCR,PIRD |SH | LM |AUROC,AUPRC | [Resources](https://github.com/ethanmock/UniPMT) |
+| [UnifyImmun](https://www.nature.com/articles/s42256-024-00973-w) | Nat. Mach. Intell., 2025 | TetTCR-seq,VDJdb,IEDB,PIRD,Heilkkila et al.,10x,ImmuneCODE,BindingDB |SH,BK | OR |AUROC,AUPRC,Accuracy,MCC,F1-Score | [Resources](https://github.com/hliulab/UnifyImmun) |
+| [TCRBagger](https://www.cell.com/cell-systems/abstract/S2405-4712(25)00236-4) | Cell System, 2025 | IEDB,VDJdb,McPAS-TCR,PIRD |BK | PC |AUROC,AUPRC | [Resources](https://github.com/bm2-lab/TCRBagger) |
+| [deepAntigen](https://www.nature.com/articles/s41467-025-60461-6) | Nat. Commun., 2025 | IEDB,VDJdb,McPAS-TCR,PIRD,ImmuneCODE,NeoTCR  |BK | OH |AUROC,AUPRC,Sensitivity,Specificity,Precision,NPCC | [Resources](https://github.com/JiangBioLab/deepAntigen) |
+
+N.G.=Negatives generation,
+E.M.=Embedding method,
+RS=Negatives by randomly sampling,
+NC=Negatives from non-cognate  MHC alleles,
+SH = Negatives by shuffling, BK = Negatives from background data.
+OH = one-hot embedding, 
+OR = ordinal embedding, 
+PC = physicochemical property (or Atchley factors)-based embedding, 
+KM=K-mer feature-based embedding, 
+BL=BLOSUM-based embedding, 
+LM=language model-based embedding.
+
+        
+## Comprehensive Evaluation of 18 TCR-pMHC Binding Predictors
+
+To provide a much-needed, unified assessment and establish a reproducible benchmark for the field, we conduct a comprehensive, head-to-head evaluation of 18 state-of-the-art TCR-pMHC binding prediction methods mentioned above. In order to make a fair comparison, all models are re-implemented and evaluated using a consistent framework, including unified data preprocessing (one-hot encoding for sequences and categorical attributes like V/J genes and MHC), negative sample generation, and training parameters (i.e., 40 epochs, batch size of 64, Adam optimizer with learning rate 0.0002 and weight decay 1e-5 on McPAS-TCR dataset; 80 epochs, batch size of 64, Adam optimizer with learning rate 0.0001 and weight decay 1e-5 on IEDB and VDJdb datasets). As some original implementations are not fully open-sourced or are based on different deep learning frameworks (e.g., Keras), we re-implement all models in PyTorch; while we strive to preserve the original performance, we cannot guarantee 100\% replication of the original results. Evaluations are performed on three major public databases: the [IEDB](https://academic.oup.com/nar/article/47/D1/D339/5144151), [McPAS-TCR](https://academic.oup.com/bioinformatics/article/33/18/2924/3803440), and [VDJdb](https://academic.oup.com/nar/article/46/D1/D419/4101254). The results are shown below.
+<img width="2351" height="2915" alt="figure_07" src="https://github.com/user-attachments/assets/7495a55a-8524-4274-83fa-4db3a719df74" />
 
 
-## Description
+To assess the clinical utility and robustness of the benchmarked methods, we conduct a critical out-of-distribution (OOD) generalization test on two independent Unseen Epitope Variant Datasets (Dataset I and Dataset II). These datasets, referenced from the stringent [ePytope-TCR benchmark](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00202-2), are specifically designed to challenge models with novel peptide sequences, mirroring the difficulties encountered in real-world contexts where neoantigens frequently arise. The comprehensive performance evaluation is presented as follows.
 
-This repository provides a comprehensive overview of **Large Language Models (LLMs)** and their applications in **protein understanding** and **prediction**. The methods discussed span various domains within protein science, including protein sequence modeling, engineering, and interaction prediction.
+<img width="3779" height="2327" alt="figure_08" src="https://github.com/user-attachments/assets/c9433169-fd8d-4d91-a89f-dcf123ff469d" />
 
-### References
+### Code Introduction
 
-- **Nature Methods, 2019**: Unified rational protein engineering with sequence-based deep representation learning
-- **ICLR, 2019**: Learning protein sequence embeddings using information from structure
-- **NAR Genomics and Bioinformatics, 2020**: Mutation effect estimation on protein–protein interactions using deep contextualized representation learning
-- **IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021**: Prottrans: Toward understanding the language of life through self-supervised learning
-
-## License
+- **data_preprocess.py**: preprocess the raw downloaded dataset of IEDB, McPAS, and VDJdb.
+- **config.py**: the file including the necessary settings.
+- **model.py**: the file including all models.
+- **main.py**: the main file to run all models.
+- **filter_data.py**: filter the dataset to ensure the independence of two unseen OOD datasets.
+- **test_new_data.py**: to evaluate the trained model on the two unseen OOD datasets.
+- **data**: the folder including the raw downloaded datasets: IEDB, McPAS, and VDJdb.
+- **unseen_data**: the folder including the unseen dataset downloaded from [ePytope-TCR benchmark](https://zenodo.org/records/15025579).
+## License 
 
 MIT License
 
