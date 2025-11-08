@@ -126,7 +126,7 @@ To assess the clinical utility and robustness of the benchmarked methods, we con
 - **main.py**: the main file to run all models.
 - **filter_data.py**: filter the dataset to ensure the independence of two unseen OOD datasets.
 - **test_new_data.py**: to evaluate the trained model on the two unseen OOD datasets.
-- **data**: the folder including the raw downloaded datasets: IEDB, McPAS, and VDJdb.
+- **data**: the folder including the raw downloaded datasets: IEDB, McPAS, and VDJdb. The size of the raw IEDB dataset is too large (>25MB) to upload to GitHub. You can download it by following the instructions in the guide file data_download.txt located in the data folder.   
 - **unseen_data**: the folder including the unseen dataset downloaded from [ePytope-TCR benchmark](https://zenodo.org/records/15025579).
 ## License 
 
