@@ -10,7 +10,7 @@ train_files = [
 ]
 
 # ePytope-TCR 基准数据集路径
-epy_file = "/home/dengyang/code/My_code/TCR_benchmark_processed_data/processed_data/viral.csv"
+epy_file = "/home/dengyang/code/My_code/TCR_benchmark_processed_data/unseen_data/viral.csv"
 
 # 输出目录
 output_prefix = "filtered_epytopeTCR"
@@ -127,3 +127,4 @@ if __name__ == "__main__":
     df_final_unseen.to_csv(f"{output_prefix}_unseen_balanced_strict.csv", index=False)
     print("✅ 去交叉处理完成！")
     print(f"已保存: {output_prefix}_unseen_balanced_strict.csv")
+
