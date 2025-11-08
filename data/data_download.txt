@@ -1,0 +1,24 @@
+##ref: https://github.com/SchubertLab/benchmark_TCRprediction/blob/master/manuscript/databases.ipynb
+
+
+IEDB
+https://www.iedb.org/
+
+Eptiope = Any
+Assay = T Cell, Outcome = Positive
+MHC Restriction = Any
+Host = Any
+Disease = Any
+=> Search => Receptors => Export Results => Export to CSV file.
+
+
+
+VDJdb
+https://github.com/antigenomics/vdjdb-db/releases/download/2022-03-30/vdjdb-2022-03-30.zip
+
+
+McPAS-TCR
+http://friedmanlab.weizmann.ac.il/McPAS-TCR/
+
+
+
