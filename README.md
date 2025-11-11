@@ -35,7 +35,7 @@ AI-Driven Computational Methods, Data Resources, and Benchmarking for T-Cell Ant
 | [VDJdb](https://academic.oup.com/nar/article/46/D1/D419/4101254) | Nucl. Acids Res., 2018 | [Code](https://vdjdb.cdr3.net/) |
 | [TetTCR-seq](https://www.nature.com/articles/nbt.4282) | Nat. Biotechnol., 2018 | [Code](https://www.ncbi.nlm.nih.gov/gap/) |
 | [IEDB](https://academic.oup.com/nar/article/47/D1/D339/5144151) | Nucl. Acids Res., 2019 | [Code](https://www.iedb.org/) |
-| [10x](https://www.nature.com/articles/s41587-019-0322-9) | Tech. Rep., 2019 | [Code](https://www.10xgenomics.com/) |
+| [10x](https://www.10xgenomics.com/welcome?closeUrl=%2Flibrary&lastTouchOfferName=A%20new%20way%20of%20exploring%20immunity%3A%20Linking%20highly%20multiplexed%20antigen%20recognition%20to%20immune%20repertoire%20and%20phenotype&lastTouchOfferType=Marketing%20Literature&product=chromium&redirectUrl=%2Flibrary%2Fa14cde) | Tech. Rep., 2019 | [Code](https://www.10xgenomics.com/) |
 | [PIRD](https://academic.oup.com/bioinformatics/article/36/3/897/5543102) | Bioinformatics, 2020 | [Code](https://db.cngb.org/pird/) |
 | [Heilkkila et al.](https://www.sciencedirect.com/science/article/pii/S016158902030479X) | Mol. Immunol., 2020 | [Code](https://www.ebi.ac.uk/ena/browser/view/PRJEB41936) |
 | [NeoTCR](https://academic.oup.com/gpb/article/23/2/qzae010/7600436) | Genomics Proteomics Bioinformatics, 2024 | [Code](http://neotcrdb.bioxai.cn/home) |
