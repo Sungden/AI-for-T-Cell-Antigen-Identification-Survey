@@ -116,7 +116,8 @@ To provide a much-needed, unified assessment and establish a reproducible benchm
 
 To assess the clinical utility and robustness of the benchmarked methods, we conduct a critical out-of-distribution (OOD) generalization test on two independent Unseen Epitope Variant Datasets (Dataset I and Dataset II). These datasets, referenced from the stringent [ePytope-TCR benchmark](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00202-2), are specifically designed to challenge models with novel peptide sequences, mirroring the difficulties encountered in real-world contexts where neoantigens frequently arise. The comprehensive performance evaluation is presented as follows.
 
-<img width="3779" height="2327" alt="figure_08" src="https://github.com/user-attachments/assets/c9433169-fd8d-4d91-a89f-dcf123ff469d" />
+
+![figure_08](https://github.com/user-attachments/assets/055a15b4-918d-4e8a-b5bf-c8d2c4483731)
 
 ### Code Introduction
 
